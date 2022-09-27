@@ -1,2 +1,0 @@
-# SoftwareEngineeringTaskB
-Task B
