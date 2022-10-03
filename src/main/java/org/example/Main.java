@@ -17,20 +17,17 @@ public class Main {
         Lecturer lecturer1 = new Lecturer("John Smith", 50, DateTime.parse("1972-01-01T00:00:00.000Z"),1);
         Lecturer lecturer2 = new Lecturer("Michelle McJava", 50, DateTime.parse("1972-01-01T00:00:00.000Z"),2);
         Lecturer lecturer3 = new Lecturer("Steve Fasttyper", 50, DateTime.parse("1972-01-01T00:00:00.000Z"),3);
-        List<Lecturer> allLecturers = Arrays.asList(lecturer1,lecturer2,lecturer3);
 
         Module module1 = new Module("Introduction to Java", lecturer2);
         Module module2 = new Module("Advanced Java",lecturer2);
         Module module3 = new Module("React Basics", lecturer1);
         Module module4 = new Module("JavaScript 101", lecturer3);
-        List<Module> allModules = Arrays.asList(module1,module2,module3,module4);
 
         Student student1 = new Student("Iarlaith", 21, DateTime.parse("2001-01-01T00:00:00.000Z"),1);
         Student student2 = new Student("Sean", 20, DateTime.parse("2002-01-08T00:00:00.000Z"),2);
         Student student3 = new Student("Michael", 21, DateTime.parse("2001-04-01T00:00:00.000Z"),3);
         Student student4 = new Student("Stephen", 22, DateTime.parse("2000-03-06T00:00:00.000Z"),4);
         Student student5 = new Student("Mark", 21, DateTime.parse("2001-01-02T00:00:00.000Z"),5);
-        List<Student> allStudents = Arrays.asList(student1,student2,student3,student4,student5);
 
         //Add modules to courses
         course1.setModules(Arrays.asList(module1,module2));
