@@ -1,7 +1,7 @@
 plugins {
     id 'java'
-    apply plugin: 'war'
 }
+apply plugin: 'war'
 
 group 'org.example'
 version '1.0-SNAPSHOT'
@@ -14,7 +14,7 @@ repositories {
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
-    implementation 'com.github.iarlaithos:SoftwareEngineering:1.05'
+    implementation 'com.github.iarlaithos:SoftwareEngineering:1.07'
     implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-jodatime', version: '5.7.1.SP1.RELEASE'
 }
 
