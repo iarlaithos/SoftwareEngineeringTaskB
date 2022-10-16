@@ -73,6 +73,8 @@ public class Main {
             System.out.println("COURSE: " + course.getCourseName());
                 for(Module module : course.getModules()){
                     System.out.println("\n  ↪" + "MODULE: " + module.getModuleName());
+                    System.out.println("\n      ↪" + "LECTURER NAME: " + module.getLecturer().getName());
+                    System.out.println("\n          ↪" + "USERNAME: " + module.getLecturer().getUsername());
                     for(Student student : module.getStudents()) {
                         System.out.println("\n      ↪" + "STUDENT NAME: " + student.getName());
                         System.out.println("\n          ↪" + "USERNAME: " + student.getUsername());
